@@ -1,9 +1,11 @@
 package com.example.tiendadonchucho.entidades;
 
 public class Producto {
-    
+
     private Integer id;
     private String nombre;
+
+    private String foto;
     private String descripcion;
     private Integer cantidad;
     private Double precioUnitario;
